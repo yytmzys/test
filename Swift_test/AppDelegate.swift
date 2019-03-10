@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Swift_test
 //
-//  Created by 王培亮 on 2018/11/26.
+//  Created by yytmzys on 2018/11/26.
 //  Copyright © 2018 yytmzys. All rights reserved.
 //
 
@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+      window = UIWindow(frame: UIScreen.main.bounds)
+      window?.makeKeyAndVisible()
+      window?.rootViewController = UINavigationController(rootViewController: TableViewController())
+        
         return true
     }
 

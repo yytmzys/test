@@ -1,0 +1,38 @@
+PODS:
+  - MJRefresh (3.1.15.7)
+  - MMProgressHUD (0.3.2)
+  - PureLayout (3.1.4)
+  - Reveal-iOS (4)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - MJRefresh (~> 3.1.15.7)
+  - MMProgressHUD (~> 0.3)
+  - PureLayout (~> 3.1.2)
+  - Reveal-iOS (~> 4)
+  - SDWebImage (~> 3.7)
+  - SwiftyJSON (~> 3.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+    - MMProgressHUD
+    - PureLayout
+    - Reveal-iOS
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MMProgressHUD: a913b116ba6791d67d37f9fb4211079200fb7595
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+  Reveal-iOS: 70b2d6c393275465a6f1c6076b394201c95c3e46
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: cfbd1a9282927881fb7b8a384877fe509e9f9efc
+
+COCOAPODS: 1.5.3
