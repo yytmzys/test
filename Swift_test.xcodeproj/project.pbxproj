@@ -42,6 +42,7 @@
 		BC8217C021D4CBD900C0839D /* EMPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8217BF21D4CBD800C0839D /* EMPageControl.swift */; };
 		BCA4232921F5C1E5000E0529 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCA4232B21F5C1E5000E0529 /* Localizable.strings */; };
 		BCA4233521FEAA37000E0529 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4233421FEAA37000E0529 /* SliderViewController.swift */; };
+		BCC2E7D9223520B900D978A6 /* testq.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC2E7D8223520B900D978A6 /* testq.swift */; };
 		BCE0D90F21ABD7410031B06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE0D90E21ABD7410031B06E /* AppDelegate.swift */; };
 		BCE0D91121ABD7410031B06E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE0D91021ABD7410031B06E /* ViewController.swift */; };
 		BCE0D91621ABD7460031B06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE0D91521ABD7460031B06E /* Assets.xcassets */; };
@@ -92,6 +93,7 @@
 		BCA4232A21F5C1E5000E0529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BCA4232C21F5C1E7000E0529 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BCA4233421FEAA37000E0529 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		BCC2E7D8223520B900D978A6 /* testq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testq.swift; sourceTree = "<group>"; };
 		BCE0D90B21ABD7410031B06E /* Swift_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE0D90E21ABD7410031B06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE0D91021ABD7410031B06E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -199,6 +201,14 @@
 			path = GuidePages;
 			sourceTree = "<group>";
 		};
+		BCC2E7D7223520A400D978A6 /* git test */ = {
+			isa = PBXGroup;
+			children = (
+				BCC2E7D8223520B900D978A6 /* testq.swift */,
+			);
+			path = "git test";
+			sourceTree = "<group>";
+		};
 		BCE0D90221ABD7410031B06E = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +232,7 @@
 			children = (
 				BCE0D90E21ABD7410031B06E /* AppDelegate.swift */,
 				BCFBE49E21B12D8200BF863C /* TableViewController.swift */,
+				BCC2E7D7223520A400D978A6 /* git test */,
 				BC1EA83E21D77B6300AD63B4 /* AlbumDetail */,
 				BC8217B821D486DA00C0839D /* GuidePages */,
 				BC82178A21C9FA6C00C0839D /* ZFSlideSegmentController */,
@@ -408,6 +419,7 @@
 				BC82178021C9F50900C0839D /* ZFXSegmentViewConfig.swift in Sources */,
 				BCFBE4C521B534FE00BF863C /* ViewController3.swift in Sources */,
 				BCE0D91121ABD7410031B06E /* ViewController.swift in Sources */,
+				BCC2E7D9223520B900D978A6 /* testq.swift in Sources */,
 				BCFBE49F21B12D8200BF863C /* TableViewController.swift in Sources */,
 				BCA4233521FEAA37000E0529 /* SliderViewController.swift in Sources */,
 				BC82177F21C9F50900C0839D /* ZFXSegmentViewItemConfig.swift in Sources */,
